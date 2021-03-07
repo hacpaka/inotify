@@ -1,7 +1,7 @@
 {
 	"name": "jquery-form-notify",
 	"version": "1.0.0",
-	"description": "jQuery simple form controls notification plugin ",
+	"description": "The lightweight form-level notification jQuery plugin.",
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,11 @@
 		"url": "git+https://github.com/hacpaka/jquery-form-notify.git"
 	},
 	"keywords": [
-		"jquery"
+		"jquery",
+		"input",
+		"textarea",
+		"select",
+		"notifications"
 	],
 	"author": "Kassisus Kress",
 	"license": "MIT",
