@@ -19,7 +19,7 @@
 			timeout = 0;
 		}
 
-		if (!$element.data('inotify')) {
+		if (!$element.data('jquery-form-notify')) {
 			$parent.addClass(`u-inotify--${type}`)
 				.append(`<span class="c-inotify">${text}</span>`);
 
@@ -32,7 +32,7 @@
 				}
 			}
 
-			$element.data('inotify', __INSTANCE__);
+			$element.data('jquery-form-notify', __INSTANCE__);
 			if (timeout > 0) {
 				setTimeout(function () {
 					__INSTANCE__.destroy();
@@ -43,7 +43,7 @@
 
 	$.fn.iNotify = function(text, type, timeout) {
 		return this.each(function() {
-			$.iNotify(this, text, type, timeout);
+			$.notify(this, text, type, timeout);
 		});
 	}
 

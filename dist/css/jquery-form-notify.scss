@@ -2,54 +2,53 @@
 .u-inotify--success {
 	position: relative;
 
-.c-inotify {
-	position: absolute;
-	display: block;
-	top: -8px;
-	right: 12px;
-	padding: 6px 10px;
-	border-radius: 4px;
-	letter-spacing: 1px;
-	line-height: 10px;
-	font-size: 9px;
-	font-weight: bold;
-	z-index: 999;
+	.c-inotify {
+		position: absolute;
+		display: block;
+		top: -8px;
+		right: 12px;
+		padding: 6px 10px;
+		border-radius: 4px;
+		letter-spacing: 1px;
+		line-height: 10px;
+		font-size: 9px;
+		font-weight: bold;
+		z-index: 999;
 
-&.c-inotify--error {
-	 color: #ffffff;
-	 background-color: #ed8936;
- }
+		&.c-inotify--error {
+			color: #ffffff;
+			background-color: #ed8936;
+		}
 
-&.c-inotify--success {
-	 color: #468847;
-	 background-color: #DFF0D8;
- }
-
-}
+		&.c-inotify--success {
+			color: #468847;
+			background-color: #DFF0D8;
+		}
+	}
 }
 
 .u-inotify--error {
-.c-inotify {
-	color: #ffffff;
-	background-color: #ed8936;
-}
+	.c-inotify {
+		color: #ffffff;
+		background-color: #ed8936;
+	}
 
-input,
-select,
-textarea {
-	border-color: #ed8936 !important;
-}
+	input,
+	select,
+	textarea {
+		border-color: #ed8936 !important;
+	}
 }
 
 .u-inotify--success {
-.c-inotify {
-	color: #dff0d8;
-	background-color: #468847;
-}
+	.c-inotify {
+		color: #dff0d8;
+		background-color: #468847;
+	}
 
-input,
-select,
-textarea {
-	border-color: #468847 !important;
-}
+	input,
+	select,
+	textarea {
+		border-color: #468847 !important;
+	}
 }
