@@ -47,4 +47,15 @@
 		});
 	}
 
+	$.fn.error = function(text, timeout) {
+		return this.each(function() {
+			$.notify(this, text, "error", timeout);
+		});
+	}
+
+	$.fn.success = function(text, timeout) {
+		return this.each(function() {
+			$.notify(this, text, "success", timeout);
+		});
+	}
 })(jQuery);
