@@ -1,28 +1,30 @@
 {
-	"name": "jquery-form-notify",
+	"name": "jquery-forms-notify",
 	"version": "1.0.0",
-	"description": "The lightweight form-level notification jQuery plugin.",
+	"description": "The lightweight form-level notifications.",
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/hacpaka/jquery-form-notify.git"
+		"url": "https://github.com/hacpaka/jquery-forms-notify"
 	},
 	"keywords": [
 		"jquery",
+		"plugin",
+		"lightweight",
 		"input",
 		"textarea",
 		"select",
 		"notifications"
 	],
-	"author": "Kassisus Kress",
+	"author": "Kassius Kress",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/hacpaka/jquery-form-notify/issues"
+		"url": "https://github.com/hacpaka/jquery-forms-notify/issues"
 	},
-	"homepage": "https://github.com/hacpaka/jquery-form-notify#readme",
+	"homepage": "https://github.com/hacpaka/jquery-forms-notify#readme",
 	"dependencies": {
 		"jquery": "^3.6.0"
 	}
