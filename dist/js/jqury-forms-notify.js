@@ -1,5 +1,5 @@
 (function($) {
-	$.iNotify = function(element, text, type, timeout) {
+	$.notify = function(element, text, type, timeout) {
 
 		var $element = $(element);
 		if (!$element.is('input,select,textarea')){
@@ -19,7 +19,7 @@
 			timeout = 0;
 		}
 
-		if (!$element.data('jquery-form-notify')) {
+		if (!$element.data('jquery-forms-notify')) {
 			$parent.addClass(`u-inotify--${type}`)
 				.append(`<span class="c-inotify">${text}</span>`);
 
@@ -32,7 +32,7 @@
 				}
 			}
 
-			$element.data('jquery-form-notify', __INSTANCE__);
+			$element.data('jquery-forms-notify', __INSTANCE__);
 			if (timeout > 0) {
 				setTimeout(function () {
 					__INSTANCE__.destroy();
@@ -41,7 +41,7 @@
 		}
 	}
 
-	$.fn.iNotify = function(text, type, timeout) {
+	$.fn.notify = function(text, type, timeout) {
 		return this.each(function() {
 			$.notify(this, text, type, timeout);
 		});
