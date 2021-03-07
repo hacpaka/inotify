@@ -28,7 +28,7 @@
 					$parent.removeClass(`u-inotify--${type}`)
 						.find('.c-inotify').remove();
 
-					$element.removeData('inotify');
+					$element.removeData('jquery-forms-notify');
 				}
 			}
 
