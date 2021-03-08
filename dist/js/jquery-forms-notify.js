@@ -15,7 +15,7 @@
 			type = 'error';
 		}
 
-		if (!isNaN(timeout) || timeout < 0) {
+		if (isNaN(timeout) || timeout < 0) {
 			timeout = 0;
 		}
 
